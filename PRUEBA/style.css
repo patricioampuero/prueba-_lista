@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+nav {
+    background-color: rgb(89, 38, 192);
+    padding: 10px 0;
+}
+ul {
+    list-style: none;
+    margin: 10;
+    padding: 0;
+    text-align: left;
+}
+li {
+    display: inline-block;
+    padding: 0 10px;
+}
+li:hover {
+    background-color: aqua;
+    transition: .5s;
+}
+label {
+    color: white;
+    position: relative;
+    text-align: left;
+}
+label:hover {
+    transition: 1s;
+}
+label1:hover {
+    color: yellow;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(1, 5, 228);
+    text-align: center;
+    position: sticky;
+    display: inline-block;
+  }
+  .div-cajagrande {
+    background-color: rgb(181, 160, 229);
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+    left: 150px;
+  }
+  .div-absoluto {
+    background-color: blue;
+    position: relative;
+    border-radius: 15px;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+    left: 200px;
+    
+  }
+  .div-absoluto2 {
+    background-color: green;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+    left: 250px;
+  }
+  .div-absoluto3 {
+    background-color: red;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+    left: 300px;
+  }
+  nav2:hover {
+    transition: .5s;
+  }
+  @media screen and (max-width: 361px) {
+    nav {
+        background-color: blue;
+    }
+    ul {
+        text-align: inherit;
+        padding-left: 20px;
+    }
+    
+  }
